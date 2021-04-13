@@ -1,0 +1,20 @@
+{
+    "name": "alvan/acl",
+    "description": "Another ACL (Access Control List)",
+    "type": "library",
+    "keywords": [
+        "acl"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "classmap": {
+            "A\\Acl": "Acl.php"
+        },
+        "psr-4": {
+            "A\\Acl\\": "Acl/"
+        }
+    }
+}
